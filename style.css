@@ -515,6 +515,23 @@
 	margin-bottom: 0;
 }
 
+
+/*caja 1*/
+
+.bck-box.bck-box-1 {
+	border: 5px solid #f3ec80;
+    background: #ffffff;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 40px;
+
+}
+
+
+
 /* Caja 2 */
 .bck-box.bck-box2 {
 	-webkit-box-shadow: 0 3px 0 #BCBDC0;
