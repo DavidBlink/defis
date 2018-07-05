@@ -1,3 +1,81 @@
+/* Fonts */
+
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Thin.otf);
+	  font-weight: 100;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-ThinItalic.otf);
+	  font-weight: 100;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Light.otf);
+	  font-weight: 200;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-LightItalic.otf);
+	  font-weight: 200;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Regular.otf);
+	  font-weight: 400;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Italic.otf);
+	  font-weight: 400;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Medium.otf);
+	  font-weight: 500;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-MediumItalic.otf);
+	  font-weight: 500;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Bold.otf);
+	  font-weight: 700;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-BoldItalic.otf);
+	  font-weight: 700;
+	  font-style: italic;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-Heavy.otf);
+	  font-weight: 900;
+	  letter-spacing: 2px;
+	}
+	@font-face {
+	  font-family: CamphorPro;
+	  src: url(fonts/CamphorPro-HeavyItalic.otf);
+	  font-weight: 900;
+	  font-style: italic;
+	  letter-spacing: 2px;
+	}
+
+	@font-face {
+	  font-family: GhostKid;
+	  src: url(fonts/Ghost-Kid-AOE.ttf);
+	  font-weight: 400;
+	}
+
+
 /* General */
 
 	body.content_type_clase_defis {
@@ -368,7 +446,7 @@
     			 0px 1px #fff;
 }
 
-/* Lists */
+/* Lista */
 
 .texto_curso ul li,
 .workspace ul li ul li,
@@ -405,49 +483,9 @@
 	line-height: 1.1rem;
 }
 
-/*lista ordenada por defecto*/
-
-.content ol li:before, .cke_contents ol li:before {
-    color: #000;
-    font-size: 2rem;
-}
-
-
-/*lista ordenada 1*/
-
-.content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before {
-
-    color: #bfd060;
-    margin-top: 3px;
-    content: counter(bck-li-counter);
-    font-size: 3.5rem;
-    position: absolute;
-    top: -2px;
-    left: -3px;
-    font-weight: bold;
-    text-align: center;
-    line-height: 2.5rem;
-
-}
-
-/*LISTA ORDENADA 2*/
-
-.content .bck-ol2 li:before,
-.cke_contents .bck-ol2 li:before {
-	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    		box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    border: 1px solid #109FC5;
-    background: #fff;
-    color: #000;
-}
-
-/*LISTA ORDENADA 3*/
-
-.content .bck-ol3 li:before,
-.cke_contents .bck-ol3 li:before {
-	ontent: counter(bck-li-counter);
+.content ol li:before,
+.cke_contents ol li:before {
+ content: counter(bck-li-counter);
     position: absolute;
     top: -2px;
     left: -3px;
@@ -467,7 +505,49 @@
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
+}
 
+
+
+
+.content .bck-ol1 li:before,
+.cke_contents .bck-ol1 li:before {
+
+     color: #bfd060;
+    margin-top: 3px;
+    content: counter(bck-li-counter);
+    font-size: 3.5rem;
+    position: absolute;
+    top: -2px;
+    left: -3px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+/*LISTA ORDENADA 2*/
+
+.content .bck-ol2 li:before,
+.cke_contents .bck-ol2 li:before {
+	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
+       -moz-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
+    		box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
+    border: 1px solid #109FC5;
+    background: #fff;
+    color: #000;
+}
+
+/*LISTA ORDENADA 3*/
+
+.content .bck-ol3 li:before,
+.cke_contents .bck-ol3 li:before {
+	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+    border: none;
+    background: transparent;
+    color: #000;
+    font-size: 2rem;
 }
 
 /*LISTA ORDENADA 4*/
@@ -514,23 +594,6 @@
 .bck-box .bck-content p:last-child {
 	margin-bottom: 0;
 }
-
-
-/*caja 1*/
-
-.bck-box.bck-box-1 {
-	border: 5px solid #f3ec80;
-    background: #ffffff;
-    padding: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position: relative;
-    margin-top: 50px;
-    border-radius: 40px;
-
-}
-
-
 
 /* Caja 2 */
 .bck-box.bck-box2 {
@@ -600,7 +663,7 @@
 /* Icons */
 
 #actividad .player.audio {
-    background: url(/useruploads/r/a/93401380/activity_other_imported/icono_audio.png) center center / cover;
+	background: url(images/Icon_audio.png) center center / cover;
 }
 
 .item-container .icon:before {
@@ -684,20 +747,6 @@
     border: 2px solid #10A0C6;
     padding-top: 10px;
 }
-
-
-#actividad .workspace.chooseblanks .inline-answer a {
-    display: inline-block;
-    vertical-align: top;
-    border: 1px solid #446593;
-    padding: 3px 6px;
-    background: #e2edefe0;
-    margin: 0 2px;
-    -webkit-border-radius: 13px;
-    -moz-border-radius: 13px;
-    border-radius: 13px;
-}
-
 
 .fillblanks-draggable-wrapper .response {
     border: 0px solid #d8d8d8;
