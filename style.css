@@ -537,7 +537,7 @@
 
 
 /* Caja 2 */
-.bck-box.bck-box2 {
+.bck-box.bck-box-2 {
 	-webkit-box-shadow: 0 3px 0 #BCBDC0;
 	   -moz-box-shadow: 0 3px 0 #BCBDC0;
 	        box-shadow: 0 3px 0 #BCBDC0;
@@ -549,7 +549,7 @@
 }
 
 /* Caja 3 */
-.bck-box.bck-box3 {
+.bck-box.bck-box-3 {
 	position: relative;
 	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
 	   -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.5);
@@ -561,7 +561,7 @@
 	        transform: rotate(2deg);
 }
 
-.bck-box.bck-box3 .bck-title {
+.bck-box.bck-box-3 .bck-title {
 	position: absolute;
 	top: 0;
 	left: 50%;
@@ -579,11 +579,8 @@
 	padding: 0 6px;
 }
 
-.bck-box.bck-box3 .bck-title p {
-	display: inline;
-}
 
-.bck-box.bck-box3 .bck-content {
+.bck-box.bck-box-3 .bck-content {
 	margin-top: 15px;
 }
 
