@@ -416,10 +416,12 @@
 
 
 
+
+/*lista ordenada 1*/
+
 .content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before,
-.content ol li:before,
-.cke_contents ol li:before {
+.cke_contents .bck-ol1 li:before {
+
     content: counter(bck-li-counter);
     position: absolute;
     top: -2px;
