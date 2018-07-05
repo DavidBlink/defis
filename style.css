@@ -449,20 +449,17 @@
 
 .content ol li:before,
 .cke_contents ol li:before {
- content: counter(bck-li-counter);
+content: counter(bck-li-counter);
     position: absolute;
-    top: -2px;
     left: -3px;
     display: block;
     width: 24px;
     height: 24px;
-    -webkit-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
-	   -moz-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
-			box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
     border: 1px solid #b25313;
     -webkit-border-radius: 50%;
-       -moz-border-radius: 50%;
-            border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
     background: #F58220;
     color: #fff;
     font-size: 1.5rem;
