@@ -405,6 +405,17 @@
 	line-height: 1.1rem;
 }
 
+/*lista ordenada por defecto*/
+
+.content ol li:before, .cke_contents ol li:before {
+    color: #bfd060;
+    margin-top: 3px;
+    content: counter(bck-li-counter);
+    font-size: 3.5rem;
+}
+
+
+
 .content .bck-ol1 li:before,
 .cke_contents .bck-ol1 li:before,
 .content ol li:before,
@@ -569,7 +580,7 @@
 /* Icons */
 
 #actividad .player.audio {
-	background: url(images/Icon_audio.png) center center / cover;
+    background: url(/useruploads/r/a/93401380/activity_other_imported/icono_audio.png) center center / cover;
 }
 
 .item-container .icon:before {
@@ -653,6 +664,20 @@
     border: 2px solid #10A0C6;
     padding-top: 10px;
 }
+
+
+#actividad .workspace.chooseblanks .inline-answer a {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #446593;
+    padding: 3px 6px;
+    background: #e2edefe0;
+    margin: 0 2px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+
 
 .fillblanks-draggable-wrapper .response {
     border: 0px solid #d8d8d8;
