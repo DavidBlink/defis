@@ -40,10 +40,31 @@
 	}
 
 	#indice .units ul li a .number,
-	#indice .unit-content .header .number
-	 {
+	#indice .unit-content .header .number {
 		visibility: hidden;
 	}
+
+	#indice .unit-content .header .title {
+    color: #fff;
+    float: left;
+    background: #41090270;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 6px;
+    height: 45px;
+    line-height: 34px;
+    margin: 20px 140px 20px 30px;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
 
 	.content_type_clase_defis #actividad .content .header {
 		border: none;
@@ -51,9 +72,7 @@
 	}
 
 	.content_type_clase_defis #actividad .content .header .title {
-		margin: -40px 0 20px;
-		background: #10A0C6;
-		padding: 20px 97px;
+		background: none;
 	}
 
 	.content_type_clase_defis #actividad .content .slide-concatenate .header .title {
@@ -62,14 +81,14 @@
 
 	.content_type_clase_defis #actividad .content .header .title h3 {
 		position: relative;
-		display: block;
-		width: 100%;
-		margin: 0;
-		padding: 0;
-		color: #fff;
-		font-size: 1.4rem;
-		font-weight: 700;
-		text-align: right;
+    	display: block;
+    	width: 100%;
+    	margin: 0;
+    	padding: 0;
+    	color: #abc12f;
+    	font-size: 3.4rem;
+    	font-weight: 700;
+    	text-align: center;
 	}
 
 	.content_type_clase_defis #actividad .content .header .title h3 span {
@@ -93,6 +112,17 @@
 	.content_type_clase_defis #actividad .workspace ul li li {
 		margin-bottom: 10px;
 	}
+
+
+	.btn {
+    border-radius: 2px;
+	}
+
+	.js-slide-wrapper > .header .single-pagination {
+    display: none;
+	}
+
+
 
 	#actividad .class_slide {
     	padding: 40px 0 0;
@@ -195,26 +225,25 @@
 
 /* Navbar */
 	.navbar-bottom {
-		background: #132E4C;
-		padding-left: 100px;
-		padding-right: 100px;
+		background: #c8c8c8;;
+    	padding-left: 100px;
+    	padding-right: 100px;
 	}
 
 	.logo-publisher {
-		display: inline-block;
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100px;
-		height: 44px;
-		background: url(logo-pearson.png) 0 0 no-repeat;
-		-webkit-background-size: contain;
-		   -moz-background-size: contain;
-		     -o-background-size: contain;
-		        background-size: contain;
-		background-position: center center;
-
-	}
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 190px;
+    height: 44px;
+    background: url(https://www.blinklearning.com/useruploads/r/a/93301520/activity_other_imported/logo-santillana-francia-opt.png) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-position: center center;
+}
 
 	@media only screen and (max-width: 640px) {
 		.navbar-bottom {
@@ -284,8 +313,8 @@
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #007FA3;
-		color: transparent;
+		background: #ff0046;
+    	color: transparent;
 	}
 	#bottom-navigator.show_left:before {
 		content: '\F053';
@@ -324,31 +353,42 @@
 		background: linear-gradient(to left, #132E4C, transparent);
 	}
 
-/**/
+/*toc*/
+#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+    background: #ff0046;
+}
+
+#indice .units ul li {
+        border-radius: 0px;
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
+    background: #ff0046;
+}
+
+
+#indice .unit-content {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 40px;
+    position: relative;
+    border: 1px solid;
+    border-color: #c3c2c2;
+}
 
 /*TITULO 1*/
 
 .bck-title1 {
 	display: inline-block;
-	-webkit-box-shadow: 0 0 0 2px #10a0c6;
-	   -moz-box-shadow: 0 0 0 2px #10a0c6;
-	        box-shadow: 0 0 0 2px #10a0c6;
-	border: 2px solid #fff;
-	background: #9ac9df;
+	border: none;
+	background: none;
 	padding: 4px 8px;
 	color: #10a0c6;
-    font-family: GhostKid;
+    font-family: cursive;
     font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px #fff,
-    			 1px 0px #fff,
-    			 1px -1px #fff,
-    			 0px -1px #fff,
-    			 -1px -1px #fff,
-    			 -1px 0px #fff,
-    			 -1px 1px #fff,
-    			 0px 1px #fff,
-    			 2px 2px #10a0c6;
     line-height: 1;
 }
 
@@ -357,7 +397,7 @@
 .bck-title2 {
 	display: block;
     color: #f58220;
-    font-family: GhostKid;
+    font-family: cursive;
     font-size: 2.4rem;
     letter-spacing: 1px;
     text-shadow: 1px 1px #fff,
@@ -442,7 +482,7 @@
     content: counter(bck-li-counter);
     font-size: 3.5rem;
     position: absolute;
-    top: -2px;
+    top: -8px;
     left: -3px;
     font-weight: bold;
     text-align: center;
@@ -468,33 +508,36 @@
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
-	    box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+	box-shadow: none;
     border: none;
-    background: transparent;
+    background: none;
     color: #9f0251;
-    font-size: 2.2rem;
+    font-size: 3.5rem;
+    font-weight: bold;
     margin-top: 2px;
+    top: -8px;
 }
 
 /*LISTA ORDENADA 4*/
 
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
-	content: counter(bck-li-counter, lower-alpha);
-	top: 0;
-	left: -5px;
-	width: 28px;
-	height: 20px;
-	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+content: counter(bck-li-counter, lower-alpha);
+    top: -5px;
+    left: -5px;
+    width: 20px;
+    height: 20px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+    -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+    box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
     border: none;
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 10px;
     background: #C9DE79;
-    color: #000;
-    line-height: 2rem;
+    color: #2c2a28;
+    line-height: 1.8rem;
+    font-size: 1.8rem;
 }
 
 /*LISTA DESORDENADA POR DEFECTO*/
@@ -601,7 +644,7 @@
 /* Icons */
 
 #actividad .player.audio {
-	background: url(images/Icon_audio.png) center center / cover;
+    background: url(/useruploads/r/a/93401380/activity_other_imported/icono_audio.png) center center / cover;
 }
 
 .item-container .icon:before {
@@ -678,13 +721,30 @@
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-    border: 0px solid #d8d8d8;
+    border: 2px solid #d8d8d8;
+    padding: 2px;
+    background-color: #e5eff2;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #10A0C6;
+    border: 3px solid #f3ec80;
     padding-top: 10px;
 }
+
+
+#actividad .workspace.chooseblanks .inline-answer a {
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #446593;
+    padding: 3px 6px;
+    background: #e2edefe0;
+    margin: 0 2px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+}
+
+
 
 .fillblanks-draggable-wrapper .response {
     border: 0px solid #d8d8d8;
