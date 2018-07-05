@@ -408,6 +408,16 @@
 /*lista ordenada por defecto*/
 
 .content ol li:before, .cke_contents ol li:before {
+    color: #000;
+    font-size: 2rem;
+}
+
+
+/*lista ordenada 1*/
+
+.content .bck-ol1 li:before,
+.cke_contents .bck-ol1 li:before {
+
     color: #bfd060;
     margin-top: 3px;
     content: counter(bck-li-counter);
@@ -418,15 +428,26 @@
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
+
 }
 
+/*LISTA ORDENADA 2*/
 
-/*lista ordenada 1*/
+.content .bck-ol2 li:before,
+.cke_contents .bck-ol2 li:before {
+	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
+       -moz-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
+    		box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
+    border: 1px solid #109FC5;
+    background: #fff;
+    color: #000;
+}
 
-.content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before {
+/*LISTA ORDENADA 3*/
 
-    content: counter(bck-li-counter);
+.content .bck-ol3 li:before,
+.cke_contents .bck-ol3 li:before {
+	ontent: counter(bck-li-counter);
     position: absolute;
     top: -2px;
     left: -3px;
@@ -446,31 +467,7 @@
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
-}
 
-/*LISTA ORDENADA 2*/
-
-.content .bck-ol2 li:before,
-.cke_contents .bck-ol2 li:before {
-	-webkit-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    		box-shadow: 2px 2px 2px 0px rgb(140, 139, 138);
-    border: 1px solid #109FC5;
-    background: #fff;
-    color: #000;
-}
-
-/*LISTA ORDENADA 3*/
-
-.content .bck-ol3 li:before,
-.cke_contents .bck-ol3 li:before {
-	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    border: none;
-    background: transparent;
-    color: #000;
-    font-size: 2rem;
 }
 
 /*LISTA ORDENADA 4*/
