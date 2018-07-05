@@ -1,6 +1,3 @@
-/* Fonts */
-
-
 /* General */
 
 	body.content_type_clase_defis {
@@ -46,61 +43,6 @@
 		visibility: hidden;
 	}
 
-	#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
-	background: #ff0046;
-	}
-
-	#indice .units ul li {
-	    border-radius: 0px;
-	}	
-
-
-	#indice .unit-content {
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    background-color: #fff;
-    overflow: hidden;
-    margin-bottom: 40px;
-    position: relative;
-    border: 1px solid;
-    border-color: #c3c2c2;
-}
-
-
-
-
-
-	#indice .unit-content .header .title {
-    color: #fff;
-    float: left;
-    background: #41090270;
-    font-size: 30px;
-    font-weight: 700;
-    padding: 6px;
-    height: 45px;
-    line-height: 34px;
-    margin: 20px 140px 20px 30px;
-    overflow: hidden;
-    z-index: 1;
-    display: block;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-}
-
-
-
-	.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
-	background: #ff0046;
-	}
-
-
-
-
 	.content_type_clase_defis #actividad .content .header {
 		border: none;
 		margin-bottom: 0;
@@ -108,7 +50,7 @@
 
 	.content_type_clase_defis #actividad .content .header .title {
 		margin: -40px 0 20px;
-		background: none;
+		background: #10A0C6;
 		padding: 20px 97px;
 	}
 
@@ -117,16 +59,16 @@
 	}
 
 	.content_type_clase_defis #actividad .content .header .title h3 {
-	position: relative;
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    color: #abc12f;
-    font-size: 3.4rem;
-    font-weight: 700;
-    text-align: center;
-}
+		position: relative;
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		color: #fff;
+		font-size: 1.4rem;
+		font-weight: 700;
+		text-align: right;
+	}
 
 	.content_type_clase_defis #actividad .content .header .title h3 span {
 		float: left;
@@ -149,13 +91,6 @@
 	.content_type_clase_defis #actividad .workspace ul li li {
 		margin-bottom: 10px;
 	}
-
-
-	.js-slide-wrapper > .header .single-pagination {
-	display: none;
-	}
-
-
 
 	#actividad .class_slide {
     	padding: 40px 0 0;
@@ -258,25 +193,26 @@
 
 /* Navbar */
 	.navbar-bottom {
-    background: #c8c8c8;;
-    padding-left: 100px;
-    padding-right: 100px;
-}
+		background: #132E4C;
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 
 	.logo-publisher {
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 10px;
-    width: 190px;
-    height: 44px;
-    background: url(https://www.blinklearning.com/useruploads/r/a/93301520/activity_other_imported/logo-santillana-francia-opt.png) 0 0 no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
-    background-position: center center;
-}
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100px;
+		height: 44px;
+		background: url(logo-pearson.png) 0 0 no-repeat;
+		-webkit-background-size: contain;
+		   -moz-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+		background-position: center center;
+
+	}
 
 	@media only screen and (max-width: 640px) {
 		.navbar-bottom {
@@ -346,9 +282,9 @@
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-    background: #ff0046;
-    color: transparent;
-}
+		background: #007FA3;
+		color: transparent;
+	}
 	#bottom-navigator.show_left:before {
 		content: '\F053';
 		font-family: 'FontAwesome';
@@ -387,14 +323,6 @@
 	}
 
 /**/
-
-
-.bck-title1, .bck-title2, .bck-title3, .bck-title-activity {
-	color: #282624;
-}
-
-
-
 
 /*TITULO 1*/
 
@@ -440,7 +368,7 @@
     			 0px 1px #fff;
 }
 
-/* Listas */
+/* Lists */
 
 .texto_curso ul li,
 .workspace ul li ul li,
@@ -455,10 +383,6 @@
 	height: 4px;
 	background-color: #414141;
 }
-
-
-
-
 
 .content .bck-ol,
 .cke_contents .bck-ol,
@@ -481,16 +405,6 @@
 	line-height: 1.1rem;
 }
 
-
-.content ol li:before, .cke_contents ol li:before {
-	color: #bfd060;
-	margin-top: 3px;
-	content: counter(bck-li-counter);
-	font-size: 3.5rem;
-
-}
-
-
 .content .bck-ol1 li:before,
 .cke_contents .bck-ol1 li:before,
 .content ol li:before,
@@ -502,12 +416,14 @@
     display: block;
     width: 24px;
     height: 24px;
-    -webkit-box-shadow: none;
-    border: 0px;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
+	   -moz-box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
+			box-shadow: 2px 2px 2px 0px rgba(174,87,30,1);
+    border: 1px solid #b25313;
     -webkit-border-radius: 50%;
        -moz-border-radius: 50%;
             border-radius: 50%;
-    background: none;
+    background: #F58220;
     color: #fff;
     font-size: 1.5rem;
     font-weight: bold;
@@ -544,32 +460,30 @@
 
 .content .bck-ol4 li:before,
 .cke_contents .bck-ol4 li:before {
-content: counter(bck-li-counter, lower-alpha);
-    top: -5px;
-    left: -5px;
-    width: 20px;
-    height: 20px;
-    -webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+	content: counter(bck-li-counter, lower-alpha);
+	top: 0;
+	left: -5px;
+	width: 28px;
+	height: 20px;
+	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
     border: none;
     -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 10px;
+       -moz-border-radius: 0;
+            border-radius: 0;
     background: #C9DE79;
-    color: #2c2a28;
-    line-height: 1.8rem;
-    font-size: 1.8rem;
+    color: #000;
+    line-height: 2rem;
 }
 
 /*LISTA DESORDENADA POR DEFECTO*/
 
 .texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
-     background-color: #616caa;
-    width: 10px;
-    height: 10px;
-    margin-top: 8px;
-   }
+    width: 6px;
+    height: 6px;
+    background-color: #414141;
+}
 
 /*CAJAS*/
 
@@ -586,28 +500,6 @@ content: counter(bck-li-counter, lower-alpha);
 .bck-box .bck-content p:last-child {
 	margin-bottom: 0;
 }
-
-/*Caja 1*/
-.bck-box.box-1 {
-    border: 5px solid #f3ec80;
-    background: #ffffff;
-    padding: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position: relative;
-    margin-top: 50px;
-    border-radius: 40px;
-}
-
-.bck-box.box-1 .bck-title2 {
-    font-size: 4rem;
-    font-weight: bold;
-    color: #706f6f;
-    margin-bottom: -15px;
-}
-
-
-
 
 /* Caja 2 */
 .bck-box.bck-box2 {
@@ -677,31 +569,8 @@ content: counter(bck-li-counter, lower-alpha);
 /* Icons */
 
 #actividad .player.audio {
-    background: url(/useruploads/r/a/93401380/activity_other_imported/icono_audio.png) center center / cover;
+	background: url(images/Icon_audio.png) center center / cover;
 }
-
-
-.btn {
-	border-radius: 2px;
-}
-
-
-#actividad .workspace.chooseblanks .inline-answer a {
-    display: inline-block;
-    vertical-align: top;
-    border: 1px solid #446593;
-    padding: 3px 6px;
-    background: #e2edefe0;
-    margin: 0 2px;
-    -webkit-border-radius: 13px;
-    -moz-border-radius: 13px;
-    border-radius: 13px;
-}
-
-
-
-
-
 
 .item-container .icon:before {
 	content: "";
@@ -777,13 +646,11 @@ content: counter(bck-li-counter, lower-alpha);
 }
 
 #actividad .workspace.clasificar .clasificar_lista .classify-item {
-	border: 2px solid #d8d8d8;
-    padding: 2px;
-    background-color: #e5eff2;
+    border: 0px solid #d8d8d8;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 3px solid #f3ec80;
+    border: 2px solid #10A0C6;
     padding-top: 10px;
 }
 
