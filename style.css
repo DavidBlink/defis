@@ -447,6 +447,9 @@
     font-weight: bold;
     text-align: center;
     line-height: 2.5rem;
+    background: none;
+    border: none;
+    box-shadow: none;
 }
 
 /*LISTA ORDENADA 2*/
@@ -498,9 +501,10 @@
 /*LISTA DESORDENADA POR DEFECTO*/
 
 .texto_curso ul li:before, .workspace ul li ul li:before, .cke_contents ul li:before {
-    width: 6px;
-    height: 6px;
-    background-color: #414141;
+    background-color: #616caa;
+    width: 10px;
+    height: 10px;
+    margin-top: 8px;
 }
 
 /*CAJAS*/
@@ -518,6 +522,21 @@
 .bck-box .bck-content p:last-child {
 	margin-bottom: 0;
 }
+
+
+/*caja 1*/
+.bck-box.box-1 {
+	border: 5px solid #f3ec80;
+    background: #ffffff;
+    padding: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    margin-top: 50px;
+    border-radius: 40px;
+}
+
+
 
 /* Caja 2 */
 .bck-box.bck-box2 {
