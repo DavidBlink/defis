@@ -468,13 +468,12 @@
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
-	-webkit-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-       -moz-box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
-    		box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
+	    box-shadow: 0px 0px 0px 0px rgb(140, 139, 138);
     border: none;
     background: transparent;
-    color: #000;
-    font-size: 2rem;
+    color: #9f0251;
+    font-size: 2.2rem;
+    margin-top: 2px;
 }
 
 /*LISTA ORDENADA 4*/
@@ -525,7 +524,7 @@
 
 
 /*caja 1*/
-.bck-box.bck-box-1 {
+.bck-box.box-1 {
 	border: 5px solid #f3ec80;
     background: #ffffff;
     padding: 30px;
@@ -535,7 +534,6 @@
     margin-top: 50px;
     border-radius: 40px;
 }
-
 
 
 /* Caja 2 */
