@@ -662,6 +662,18 @@ content: counter(bck-li-counter);
 	margin-top: 15px;
 }
 
+
+/*desplegable*/
+
+.bck-dropdown-content {
+    overflow-y: auto;
+    display: none;
+    max-height: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+
 /*TABLA POR DEFECTO*/
 
 .content table:not(.rf-tablegrid) td,
