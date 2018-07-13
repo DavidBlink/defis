@@ -19,6 +19,7 @@
 				{ name: 'Lista ordenada2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
 				{ name: 'Lista ordenada3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
 				{ name: 'Lista ordenada4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol4' } },
+				{ name: 'Lista ordenada5', element: 'ol', attributes: { 'class': 'bck-ol bck-ol5' } },
 				
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
 				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
