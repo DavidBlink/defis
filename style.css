@@ -552,8 +552,8 @@ content: counter(bck-li-counter, lower-alpha);
 	list-style: none;
 }
 
-#actividad .content .texto_curso ul li:before,
-#actividad .content .workspace ul li ul li:before,
+
+.cke_contents .bck-ul li:before,
 #actividad .content .texto_curso .bck-ul li:before,
 #actividad .content .workspace ul li .bck-ul li:before {
 	content: "";
@@ -568,11 +568,13 @@ content: counter(bck-li-counter, lower-alpha);
 	border-radius: 50%;
 }
 
+
 #actividad .content .texto_curso  ul.bck-ul-2 li,
 #actividad .content .workspace ul li ul.bck-ul-2 li {
 	list-style: none;
 }
 
+.cke_contents .bck-ul-2 li:before,
 #actividad .content .texto_curso .bck-ul-2 li:before,
 #actividad .content .workspace ul li .bck-ul-2 li:before {
 	content: "- ";
