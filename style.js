@@ -1,15 +1,15 @@
 (function (blink) {
 	'use strict';
 
-	var defisStyle = function () {
+	var defis_demoStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	defisStyle.prototype = {
-		bodyClassName: 'content_type_clase_defis',
+	defis_demoStyle.prototype = {
+		bodyClassName: 'content_type_clase_defis_demo',
 		ckEditorStyles: {
-			name: 'defis',
+			name: 'defis_demo',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
@@ -91,8 +91,8 @@
 		}
 	};
 
-	defisStyle.prototype = _.extend({}, new blink.theme.styles.basic(), defisStyle.prototype);
+	defis_demoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), defis_demoStyle.prototype);
 
-	blink.theme.styles.defis = defisStyle;
+	blink.theme.styles.defis_demo = defis_demoStyle;
 
 })( blink );
