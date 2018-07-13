@@ -643,6 +643,7 @@ content: counter(bck-li-counter);
 /* Caja 3 */
 .bck-box.bck-box-3 {
 	position: relative;
+	border: 3px dotted #9f0251;
 	
 }
 
