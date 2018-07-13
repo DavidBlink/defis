@@ -468,7 +468,7 @@ content: counter(bck-li-counter);
     line-height: 2.5rem;
 }
 
-
+/*Lista 1*/
 
 
 .content .bck-ol1 li:before,
@@ -536,6 +536,30 @@ content: counter(bck-li-counter, lower-alpha);
     line-height: 1.8rem;
     font-size: 1.8rem;
 }
+
+
+/*Lista 5*/
+
+.content .bck-ol5 li:before,
+.cke_contents .bck-ol5 li:before {
+
+     color: #bc89b6;
+    margin-top: 3px;
+    content: counter(bck-li-counter);
+    font-size: 3.5rem;
+    position: absolute;
+    top: -8px;
+    left: -3px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+
+
 
 /*LISTA DESORDENADA POR DEFECTO*/
 
