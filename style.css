@@ -687,13 +687,16 @@ content: counter(bck-li-counter);
 }
 
 
-.bck-box.box-1.bck-box-1:after {
+.bck-box.box-1.bck-box-1.center:after {
+    content: " ";
     position: absolute;
-    width: 100px;
-    height: auto;
-    color: red;
-    background: url(images/icono1.png);
-}
+    right: -69px;
+    top: -12px;
+    padding: 47px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+   }
 
 
 /* Caja 2 */
