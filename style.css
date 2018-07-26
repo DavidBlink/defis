@@ -691,12 +691,12 @@ content: counter(bck-li-counter);
     content: " ";
     position: absolute;
     right: -69px;
-    top: -12px;
-    padding: 47px;
+    top: -25px;
+    padding: 56px;
     background-size: contain;
     background-repeat: no-repeat;
     background: url(images/icono1.jpg);
-   }
+}
 
 
 /* Caja 2 */
