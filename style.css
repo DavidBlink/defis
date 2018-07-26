@@ -4,7 +4,6 @@
 
 	body.content_type_clase_defis_demo {
 		font-size: 1.8rem;
-		font-family: cursive;
 	}
 
 	body.content_type_clase_defis_demo #actividad .content img {
@@ -387,7 +386,7 @@
 	background: none;
 	padding: 4px 8px;
 	color: #10a0c6;
-    font-family: cursive;
+    font-family: monospace;
     font-size: 2.4rem;
     line-height: 1;
 }
@@ -397,7 +396,7 @@
 .bck-title2 {
 	display: block;
     color: #f58220;
-    font-family: cursive;
+    font-family: monospace;
     font-size: 2.4rem;
     letter-spacing: 1px;
     text-shadow: 1px 1px #fff,
@@ -760,6 +759,12 @@ content: counter(bck-li-counter);
 }
 
 /* Slides */
+
+#actividad .class_slide {
+padding: 40px 0px 0px 0px;
+}
+
+
 
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opcion,
