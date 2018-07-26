@@ -487,7 +487,7 @@ content: counter(bck-li-counter);
     content: counter(bck-li-counter);
     font-size: 3.5rem;
     position: absolute;
-    top: -8px;
+    top: -3px;
     left: -3px;
     font-weight: bold;
     text-align: center;
