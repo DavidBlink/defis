@@ -2,6 +2,24 @@
 
 /* General */
 
+/*tipografia*/
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+</style>
+
+
+/*font-family: 'Pacifico', cursive;*/
+
+/*font-family: 'Do Hyeon', sans-serif;*/
+
+
+
+
 	body.content_type_clase_defis_demo {
 		font-size: 1.8rem;
 	}
@@ -22,12 +40,29 @@
 
 
 	h2 {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: fantasy;
-    font-style: italic;
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #bfd060;
+}
+
+
+	h4 {
+
+		font-weight: 600;
+
 	}
 
+
+	strong {
+
+    font-weight: 700;
+    color: #404040;
+    font-style: italic;
+    font-size: 3.5rem;
+    font-family: 'Pacifico', cursive;
+
+	}
 
 
 	.is_app.content_type_clase_defis_demo {
@@ -99,7 +134,7 @@
 
 	.content_type_clase_defis_demo #actividad .content .header .title h3 {
 	position: relative;
-    display: block;
+    display: none;
     width: 100%;
     margin-bottom: 25px;
     font-family: fantasy;
