@@ -79,16 +79,16 @@
 	}
 
 	.content_type_clase_defis_demo #actividad .content .header .title h3 {
-		position: relative;
-    	display: block;
-    	width: 100%;
-    	margin: 0;
-    	padding: 0;
-    	color: #abc12f;
-    	font-size: 3.4rem;
-    	font-weight: 700;
-    	text-align: center;
-	}
+	position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 35px;
+    font-family: fantasy;
+    padding: 10px;
+    color: #abc12f;
+    font-size: 4.4rem;
+    font-weight: 300;
+    text-align: center;	}
 
 	.content_type_clase_defis_demo #actividad .content .header .title h3 span {
 		float: left;
@@ -124,8 +124,8 @@
 
 
 	#actividad .class_slide {
-    	padding: 40px 0 0;
-	}
+    padding: 30px 0px 0px 0px;
+}
 
 	#actividad .class_slide:last-of-type {
 	    padding-bottom: 0px;
@@ -759,12 +759,6 @@ content: counter(bck-li-counter);
 }
 
 /* Slides */
-
-#actividad .class_slide {
-padding: 40px 0px 0px 0px;
-}
-
-
 
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opcion,
