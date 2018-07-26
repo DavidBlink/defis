@@ -452,14 +452,14 @@
     font-family: monospace;
     font-size: 2.4rem;
     letter-spacing: 1px;
-    text-shadow: 1px 1px #fff,
-    			 1px 0px #fff,
-    			 1px -1px #fff,
-    			 0px -1px #fff,
-    			 -1px -1px #fff,
-    			 -1px 0px #fff,
-    			 -1px 1px #fff,
-    			 0px 1px #fff;
+    text-shadow: 1px 1px #fff, 1px 0px #fff, 1px -1px #fff, 0px -1px #fff, -1px -1px #fff, -1px 0px #fff, -1px 1px #fff, 0px 1px #fff;
+    top: -35px;
+    left: 0px;
+    height: auto;
+    width: 160px;
+    padding-left: 33px;
+    background: white;
+    position: absolute;
 }
 
 /* Lista */
@@ -684,6 +684,15 @@ content: counter(bck-li-counter);
     position: relative;
     margin-top: 50px;
     border-radius: 40px;
+}
+
+
+.bck-box.box-1.bck-box-1:after {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    color: red;
+    background: url(images/icono1.png);
 }
 
 
