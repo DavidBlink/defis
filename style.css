@@ -696,6 +696,7 @@ content: counter(bck-li-counter);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #fff;
+    background: url(images/icono1.png);
    }
 
 
