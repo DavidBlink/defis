@@ -20,7 +20,7 @@
     font-family: fantasy;
 	}
 
-	
+
 	h2 {
     font-size: 30px;
     font-weight: bold;
@@ -534,7 +534,7 @@ content: counter(bck-li-counter);
     font-size: 3.5rem;
     font-weight: bold;
     margin-top: 2px;
-    top: -8px;
+    top: -3px;
 }
 
 /*LISTA ORDENADA 4*/
