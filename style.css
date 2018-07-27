@@ -365,7 +365,7 @@
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #ff0046;
+		background: #187988;
     	color: transparent;
 	}
 	#bottom-navigator.show_left:before {
@@ -407,15 +407,16 @@
 
 /*toc*/
 #indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
-    background: #ff0046;
+    background: #187988;
 }
 
 #indice .units ul li {
         border-radius: 0px;
 }
 
-.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
-    background: #ff0046;
+.btn-primary, .btn-primary.disabled {
+    background: #187988;
+
 }
 
 
