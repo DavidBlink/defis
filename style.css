@@ -420,11 +420,11 @@
 }
 
 .btn-primary.disabled {
-	background: #85c939;
+	background: #187988;
 }
 
 .btn-primary[disabled] {
-	background: #333;
+	background: #85c939;
 }
 
 
