@@ -5,14 +5,14 @@
 /*tipografia*/
 
 
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url(fonts/Pacifico/Pacifico-Regular.ttf);
 
 
-@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+@import url(fonts/Do_Hyeon/DoHyeon-Regular.ttf);
 
 
 
-/*font-family: 'Pacifico', cursive;*/
+/*font-family: 'Pacifico', sans-serif;*/
 
 /*font-family: 'Do Hyeon', sans-serif;*/
 
@@ -59,7 +59,7 @@
     color: #404040;
     font-style: italic;
     font-size: 3.5rem;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', sans-serif;
 
 	}
 
@@ -758,7 +758,7 @@ content: counter(bck-li-counter);
 /* Icons */
 
 #actividad .player.audio {
-    background: url(/useruploads/r/a/93401380/activity_other_imported/icono_audio.png) center center / cover;
+    background: url(images/icono_audio.png) center center / cover;
 }
 
 .item-container .icon:before {
@@ -776,25 +776,6 @@ content: counter(bck-li-counter);
 	margin-top: -16px;
 }
 
-.item-container .icon-draw:before {
-	background-image: url(images/Icon_draw.png);
-}
-
-.item-container .icon-write:before {
-	background-image: url(images/Icon_write.png);
-}
-
-.item-container .icon-speaking:before {
-	background-image: url(images/Icon_speaking.png);
-}
-
-.item-container .icon-reading:before {
-	background-image: url(images/Icon_reading.png);
-}
-
-.item-container .icon-star:before {
-	background-image: url(images/Icon_star.png);
-}
 
 /* Forms */
 
