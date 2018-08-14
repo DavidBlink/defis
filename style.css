@@ -415,18 +415,6 @@
         border-radius: 0px;
 }
 
-.btn-primary {
-    background: #187988;
-}
-
-.btn-primary.disabled {
-	background: #187988;
-}
-
-.btn-primary[disabled] {
-	background: #85c939;
-}
-
 
 
 #indice .unit-content {
