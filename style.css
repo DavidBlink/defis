@@ -416,7 +416,6 @@
 }
 
 
-
 #indice .unit-content {
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -427,6 +426,10 @@
     position: relative;
     border: 1px solid;
     border-color: #c3c2c2;
+}
+
+.btn-primary.disabled {
+    background: #187988;
 }
 
 /*TITULO 1*/
