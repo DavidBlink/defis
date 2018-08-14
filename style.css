@@ -125,6 +125,7 @@
 
 	.content_type_clase_defis_demo #actividad .content .header .title {
 		background: none;
+		display: none;
 	}
 
 	.content_type_clase_defis_demo #actividad .content .slide-concatenate .header .title {
@@ -414,10 +415,18 @@
         border-radius: 0px;
 }
 
-.btn-primary, .btn-primary.disabled {
+.btn-primary {
     background: #187988;
-
 }
+
+.btn-primary.disabled {
+	background: #85c939;
+}
+
+.btn-primary[disabled] {
+	background: #333;
+}
+
 
 
 #indice .unit-content {
@@ -759,6 +768,7 @@ content: counter(bck-li-counter);
 
 #actividad .player.audio {
     background: url(images/icono_audio.png) center center / cover;
+    vertical-align: bottom;
 }
 
 .item-container .icon:before {
