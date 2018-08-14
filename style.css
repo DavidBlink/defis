@@ -2,22 +2,6 @@
 
 /* General */
 
-/*tipografia*/
-
-
-@import url(fonts/Pacifico/Pacifico-Regular.ttf);
-
-
-@import url(fonts/Do_Hyeon/DoHyeon-Regular.ttf);
-
-
-
-/*font-family: 'Pacifico', sans-serif;*/
-
-/*font-family: 'Do Hyeon', sans-serif;*/
-
-
-
 
 	body.content_type_clase_defis_demo {
 		font-size: 1.8rem;
@@ -34,14 +18,12 @@
     margin-bottom: 25px;
     color: #9f0251;
     font-weight: 500;
-    font-family: 'Do Hyeon', sans-serif;
-	}
+    	}
 
 
 	h2 {
     font-size: 5rem;
     font-weight: 600;
-    font-family: 'Do Hyeon', sans-serif;
     color: #bfd060;
 }
 
@@ -59,7 +41,7 @@
     color: #404040;
     font-style: italic;
     font-size: 3.5rem;
-    font-family: 'Pacifico', sans-serif;
+    
 
 	}
 
@@ -132,12 +114,16 @@
 		display: none;
 	}
 
+
+	.content_type_clase_defis #actividad .content .header .title h3 {
+		display: none;
+	}
+
 	.content_type_clase_defis_demo #actividad .content .header .title h3 {
 	position: relative;
     display: none;
     width: 100%;
     margin-bottom: 25px;
-    font-family: fantasy;
     padding: 10px;
     color: #abc12f;
     font-size: 4.4rem;
@@ -440,7 +426,6 @@
 	background: none;
 	padding: 4px 8px;
 	color: #10a0c6;
-    font-family: monospace;
     font-size: 2.4rem;
     line-height: 1;
 }
@@ -450,7 +435,6 @@
 .bck-title2 {
 	display: block;
     color: #f58220;
-    font-family: monospace;
     font-size: 2.4rem;
     letter-spacing: 1px;
     text-shadow: 1px 1px #fff, 1px 0px #fff, 1px -1px #fff, 0px -1px #fff, -1px -1px #fff, -1px 0px #fff, -1px 1px #fff, 0px 1px #fff;
