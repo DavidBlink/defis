@@ -552,6 +552,24 @@ content: counter(bck-li-counter);
 
 }
 
+/*prueba cke-contents lista 1*/
+
+.cke_contents .bck-ol1 li:before {
+
+   color: #bfd060;
+    content: counter(bck-li-counter);
+    font-size: 3.5rem;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+    background: none;
+    border: none;
+    box-shadow: none;
+
+}
+
+
 /*LISTA ORDENADA 2*/
 
 .content .bck-ol2 li:before,
