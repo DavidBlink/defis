@@ -424,7 +424,6 @@
 	display: inline-block;
 	border: none;
 	background: none;
-	padding: 4px 8px;
 	color: #10a0c6;
     font-size: 2.4rem;
     line-height: 1;
@@ -436,15 +435,9 @@
 	display: block;
     color: #f58220;
     font-size: 2.4rem;
-    letter-spacing: 1px;
-    text-shadow: 1px 1px #fff, 1px 0px #fff, 1px -1px #fff, 0px -1px #fff, -1px -1px #fff, -1px 0px #fff, -1px 1px #fff, 0px 1px #fff;
-    top: 0px;
     left: 0px;
     height: auto;
-    width: 160px;
-    padding-left: 33px;
     background: white;
-    position: absolute;
 }
 
 /* Lista */
