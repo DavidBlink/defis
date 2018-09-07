@@ -20,9 +20,16 @@
 				{ name: 'Lista ordenada3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
 				{ name: 'Lista ordenada4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol4' } },
 				{ name: 'Lista ordenada5', element: 'ol', attributes: { 'class': 'bck-ol bck-ol5' } },
+				{ name: 'Lista marron', element: 'ol', attributes: { 'class': 'bck-ol bck-ol6' } },
+				{ name: 'Lista naranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol7' } },
+				{ name: 'Lista letranaranja', element: 'ol', attributes: { 'class': 'bck-ol bck-ol8' } },
+				{ name: 'Lista azulclaro', element: 'ol', attributes: { 'class': 'bck-ol bck-ol9' } },
+				{ name: 'Lista letrazulclaro', element: 'ol', attributes: { 'class': 'bck-ol bck-ol10' } },
 				
 				{ name: 'Lista Desordenada', element: 'ul', attributes: { 'class': 'bck-ul'} },
 				{ name: 'Lista Desordenada 2', element: 'ul', attributes: { 'class': 'bck-ul-2'} },
+				{ name: 'Lista naranja', element: 'ul', attributes: { 'class': 'bck-ul-3'} },
+				{ name: 'Lista azulclaro', element: 'ul', attributes: { 'class': 'bck-ul-4'} },
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
